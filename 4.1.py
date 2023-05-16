@@ -1,3 +1,4 @@
+# @B11_demo_bot
 import logging
 from aiogram import Bot, Dispatcher, executor, types
 from aiogram.dispatcher.filters import Text
@@ -5,7 +6,7 @@ from kb4 import *
 from aiogram.types import ReplyKeyboardRemove
 
 
-bot = Bot(token='5986970010:AAH6VNBJEdUlrzmEyLi2Vc5N3YxdAcJ1okI', parse_mode=types.ParseMode.HTML)
+bot = Bot(token='6288021917:AAHgqNbuWdQxZzXyph3LU36f3n5E-mGYl3w', parse_mode=types.ParseMode.HTML)
 dp = Dispatcher(bot)
 logging.basicConfig(level=logging.INFO)
 
