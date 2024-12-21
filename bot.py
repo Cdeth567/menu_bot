@@ -6,7 +6,7 @@ from kb4 import *
 from aiogram.types import ReplyKeyboardRemove
 
 
-bot = Bot(token='6288021917:AAHgqNbuWdQxZzXyph3LU36f3n5E-mGYl3w', parse_mode=types.ParseMode.HTML)
+bot = Bot(token='', parse_mode=types.ParseMode.HTML)
 dp = Dispatcher(bot)
 logging.basicConfig(level=logging.INFO)
 
